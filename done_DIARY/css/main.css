@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+.anecdote {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+}
+
+.h2 {
+    text-align: center;
+}

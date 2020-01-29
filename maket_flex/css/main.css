@@ -1,0 +1,121 @@
+
+.conteiner {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.header {
+    background-color: #afd9e7;
+    text-align: center;
+    text-transform: uppercase;
+    color: blue;
+    padding: 10px 0px;
+}
+
+.footer {
+    background-color: #afd9e7;
+    text-align: center;
+    text-transform: uppercase;
+    color: blue;
+    padding: 10px 0px;
+}
+
+.nav {
+    flex: 1;
+    padding: 10px 7px;
+    background-color:#f1e78e;
+    display: block;
+}
+
+.main {
+    flex: 2;
+    display: block;
+    background-image: url(../media/balls.jpg);
+    background-size: contain;
+}
+
+
+.ul {
+    padding-inline-start: 20px;
+}
+
+.sports {
+    padding: 0px 0px 15px 30px;
+}
+
+.football {
+    text-transform: uppercase;
+}
+
+.img {
+    float: left;
+    padding: 15px 15px 15px 15px;
+    flex: 5;
+}
+
+.h4 {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@media all and (max-width: 760px) {
+    .header,
+    .footer {
+        display: none;
+    }
+}
+
+@media all and (max-width: 200px) {
+    .img {
+        display: none;
+    }
+}
+
+@media all and (max-width: 365px) {
+    .conteiner {
+    flex-direction: column-reverse
+    }
+}
+
+@media all and (max-width: 365px) {
+    .main {
+    margin: 0px 0px;
+    background-image: none;
+    }
+}
+
+@media all and (max-width: 365px) {
+    .nav {
+    background-color: white;
+    }
+}
+
+@media all and (max-width: 365px) {
+    ul li {
+        list-style: none;
+        display: inline;
+        }
+}
+
+@media all and (max-width: 365px) {
+    .ul {
+        margin-top: 0px;    
+    }
+}
+
+
+@media all and (max-width: 365px) {
+    .sports,
+    .ul,
+    .nav {
+        padding: 0px 0px;
+    }
+}
+
+@media all and (max-width: 365px) {
+    .vid1,
+    .vid2 {
+        display: none;
+    }
+}

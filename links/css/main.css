@@ -1,0 +1,87 @@
+a:link {
+    color:#008000;
+}
+
+a:visited {
+    color: #900060;
+}
+
+/* По заданию цвет ссылки при наведении меняется на красный цвет*/
+a:hover {
+    color:#ff0000;
+}
+
+a:active {
+    color:#ffff00;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    text-align: center;
+}
+
+.first-row li {
+    display: inline-grid;
+    border-right: 3px solid #ff0000;
+    padding: 10px;
+}
+
+.first-row li:last-child {
+    border-right: #ffffff;
+}
+
+.second-row li {
+    display: inline-block;
+    border-right: 3px solid #ff0000;
+    padding: 10px;
+}
+
+.second-row li:last-of-type {
+    border-right: #ffffff;
+}
+
+.third-row ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.third-row li {
+    padding: 9px;
+    border-right: 3px solid #ff0000;
+    margin: 3px;
+}
+
+.third-row li:last-of-type {
+    border-right: #ffffff;
+}
+
+/* Так и не удалось выставить разделители пиксель в пиксель по отношению к предыдущим вариантам*/
+.fourth-row li::after {
+    content: '';
+    background-image: url(../media/line.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: center;
+    position: relative;
+    margin-left: 9px;
+    top: 3px;
+    padding: 7px;
+}
+
+.fourth-row li {
+    display: inline-block;
+}
+
+.fourth-row ul {
+    padding-inline-start: 50px;
+}
+
+.fourth-row li:last-child:after {
+    content: '';
+    background-image: none;
+}
+
