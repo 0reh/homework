@@ -1,0 +1,98 @@
+body {
+  margin: 0px;
+}
+
+.stars {
+    display: block;
+    margin: 0 auto;
+    width: 970px;
+    height: 200px;
+    background-image: url(../media/star-empty.png);
+    background-repeat: repeat-x;
+    position: relative;
+}
+
+.star1 {
+  width: 186px;
+  height: 194px;
+  position: absolute;
+  background-image: url(../media/star-empty.png);
+}
+
+.star1:hover {
+  width: 186px;
+  height: 194px;
+  background-image: url(../media/stars1.png);
+  background-repeat: no-repeat;
+}
+
+.star2 {
+  width: 194px;
+  height: 194px;
+  top: 0px;
+  left: 194px;
+  position: absolute;
+  background-image: url(../media/star-empty.png);
+}
+
+.star2:hover {
+  width: 379px;
+  height: 200px;
+  top: 0px; 
+	transform: translate(-194px);
+  background-image: url(../media/stars2.png);
+  background-repeat: no-repeat;
+}
+
+.star3 {
+  width: 194px;
+  height: 194px;
+  top: 0px;
+  left: 388px;
+  position: absolute;
+  background-image: url(../media/star-empty.png);
+}
+
+.star3:hover {
+  width: 572px;
+  height: 200px;
+  top: 0px; 
+	transform: translate(-388px);
+  background-image: url(../media/stars3.png);
+  background-repeat: no-repeat;
+}
+
+.star4 {
+  width: 194px;
+  height: 194px;
+  top: 0px;
+  left: 582px;
+  position: absolute;
+  background-image: url(../media/star-empty.png);
+}
+
+.star4:hover {
+  width: 766px;
+  height: 200px;
+  top: 0px; 
+	transform: translate(-582px);
+  background-image: url(../media/stars4.png);
+  background-repeat: no-repeat;
+} 
+.star5 {
+  width: 194px;
+  height: 194px;
+  top: 0px;
+  left: 776px;
+  position: absolute;
+  background-image: url(../media/star-empty.png);
+}
+
+.star5:hover {
+  width: 963px;
+  height: 200px;
+  top: 0px; 
+	transform: translate(-776px);
+  background-image: url(../media/stars5.png);
+  background-repeat: no-repeat;
+}  
